@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+}
+header{
+    background-image: url(https://cdn.pixabay.com/photo/2021/12/26/18/05/frozen-6895648_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.barra{
+    background-color: rgba(177, 202, 208, 0.57);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.item-barra{
+    list-style: none;
+    display: inline;
+    margin-left: 60px;
+    
+}
+.item-barra a{
+    text-decoration: none;
+    padding: 15px;
+    
+}
+.texto-principal{
+    color: white;
+    background-color: aqua;
+    margin: 100px;
+    padding: 50px;
+
+}
+
