@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Source+Sans+3:wght@300&display=swap');
 *{
     margin: 0px;
 }
@@ -6,30 +7,141 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 450px;
 }
 .barra{
-    background-color: rgba(177, 202, 208, 0.57);
+    background-color: rgba(111, 120, 123, 0.57);
     padding: 15px;
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
+    
 }
 .item-barra{
     list-style: none;
     display: inline;
-    margin-left: 60px;
-    
+    padding: 20px;
+    font-size: larger; 
+    position: relative;
+    right: 20px;   
 }
 .item-barra a{
     text-decoration: none;
-    padding: 15px;
-    
+    padding: 15px; 
+    color: white;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
 }
 .texto-principal{
     color: white;
-    background-color: aqua;
-    margin: 100px;
-    padding: 50px;
+    width: 40%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    font-size: x-large;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bolder;
+    position: relative;
+    top: 80px;
+}
+h1{
+    text-align: center;
+}
+.texto-principal p{
+    text-align: center;
+}
+svg{
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 140px; 
+}
+.texto-section{
+    position: relative;
+    margin-top:-5px ;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size:xx-large;
+    text-align: center; 
+}
+.articulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.articulo{
+    display: flex;
+    flex-flow: row;
+    flex: 1 1 40%;  
+    height: 200px; 
+    margin: 20px; 
+    max-width: 450px;  
+    box-shadow: 0 0 10px ;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.articulo:hover{
+    animation-name: background;
+    animation-duration: 0.5ms;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes background{
+    100%{
+        background: rgb(73, 65, 80);
+        
+        
+    }
+    
+}
+.tributo{
+    background-image: url(/img/Captura\ de\ pantalla\ 2022-01-04\ 120355.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.formulario{
+    background-image: url(/img/Captura\ de\ pantalla\ 2022-01-04\ 121503.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.landing{
+    background-image: url(/img/Captura\ de\ pantalla\ 2022-01-04\ 121725.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.portafolio{
+    background-image: url(/img/Captura\ de\ pantalla\ 2022-01-04\ 134858.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.texto{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Source Sans 3', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+.texto-final{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size:xx-large;
+    text-align: center; 
+
+}
+.contacto{
+    margin: 40px;
+    text-align: center;
+}
+i{
+    font-size: xx-large;
+    padding: 20px;
 
 }
 
